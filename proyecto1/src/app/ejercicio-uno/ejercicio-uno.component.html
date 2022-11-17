@@ -1,5 +1,9 @@
  
+ <div class="container">
     <p>Ingresar valores solicitador a validar</p>
-  
-    <input type="number" [(ngModel)]="myNumber">
-    <button>Inicializar</button>
+
+     <input type="number" [(ngModel)]="valor">
+     <button (click)="calcularParImpar()">Validar</button>
+    <h1>{{mensaje}}</h1>
+    </div>
+
