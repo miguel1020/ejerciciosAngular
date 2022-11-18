@@ -9,6 +9,7 @@ import { Component, Input, OnInit, Output } from '@angular/core';
 export class EjercicioUnoComponent implements OnInit {
   myNumber = parseFloat('ingrese numero');
 
+  // nombrar y colocar variables
   valor: number = 0;
   mensaje: string = '';
 
@@ -16,7 +17,7 @@ export class EjercicioUnoComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  //ejercicio
+  //ejercicio generar metodo 
   calcularParImpar() {
     if (this.valor === 0) this.mensaje = 'Ingrese otro numero diferente a cero';
     else if (this.valor % 2 == 0) this.mensaje = 'El valor es un numero par';

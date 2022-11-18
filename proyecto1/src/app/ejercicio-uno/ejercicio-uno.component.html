@@ -1,9 +1,12 @@
- 
- <div class="container">
-    <p>Ingresar valores solicitador a validar</p>
 
-     <input type="number" [(ngModel)]="valor">
-     <button (click)="calcularParImpar()">Validar</button>
-    <h1>{{mensaje}}</h1>
-    </div>
-
+<div class="container">
+    <h2>Validacion de numeros pares o impares</h2>
+  <h5>Ingresar numero</h5>
+<br>
+  <div>
+  <input type="number" [(ngModel)]="valor" />
+  <!-- el boton direcciona al metodo -->
+  <button (click)="calcularParImpar()">Validar</button>
+  </div>
+  <h1>{{ mensaje }}</h1>
+</div>

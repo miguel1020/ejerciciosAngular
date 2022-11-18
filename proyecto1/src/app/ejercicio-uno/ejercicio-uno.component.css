@@ -1,12 +1,23 @@
 
 .container{
+    text-align: center;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    background-color: aqua;
+    width: 100%;
 }
 
 input, button{
-    width: 300px;
-
+    border-bottom: 50%;
+    text-align: center;
+    width: 200px;
+    align-content: center;
+    align-content: center;
+    left: 50%;
+    right: 50%;
+    margin: 5px;
+    justify-content: center;
 }
